@@ -203,7 +203,23 @@ body{
     .nav-menu{
         display: none;
     }
-
+    .logo{
+        width: 100%;
+    }
+    .header-text{
+        bottom: 5px;
+        left: 10px;
+    }
+    .header-text h1{
+        font-size: 24px;
+    }
+    /* global h1 */
+    .global-h1{
+        font-size: 28px;
+    }
+    .global-h2{
+        font-size: 20px;
+    }
     /* section1 reponsive */
     .section1{
         display: block;
@@ -227,5 +243,9 @@ body{
     }
     .section2-article{
         width: 100%;
+    }
+    /* section3 responsive */
+    .section3-article-text p b{
+        font-size: 17px;
     }
     }
